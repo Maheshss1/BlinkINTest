@@ -66,3 +66,29 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+
+
+
+beforeEach initializes the wrapper. Wrapper is component mounted in DOM.
+'it' is a function to write the tests.
+
+1st Test:-
+  HandleForm:- HandleForm is checking if a todo is added then the number of elements in <li> tag are matching to the number of elements in state or not.
+  
+2nd Test:-
+  Should Click The Submit Button:- It checks whether the new element added is present in the new list or not.
+  
+3rd Test:-
+  should Marked Component:- It checks whether the after clicking on the todo if it is marking the component or not.
+  
+4th Test:-
+  should Sort the List:-It checks whether after clicking Asc/Desc, it is sorting the list or not
+  
+
+
+
+
+
